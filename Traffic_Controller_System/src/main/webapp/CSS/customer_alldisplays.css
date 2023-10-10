@@ -1,0 +1,41 @@
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style the table header */
+th {
+    background-color: rgb(255, 121, 98);
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid rgb(255, 121, 98);
+}
+/* Style the first row of the table */
+table tr:first-child {
+    background-color: #fff5e0;;
+    color: blue;
+}
+
+/* Style alternating table rows with different background colors */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: rgb(255, 120, 96);
+    color: white;
+}
